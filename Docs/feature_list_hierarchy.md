@@ -1,0 +1,52 @@
+- 기능 명세 리스트
+  - 배송 요청자 (Delivery Requester)
+    - 회원가입/로그인 (Sign-up/Login)
+      - 소셜 로그인 (카카오, 네이버 등)
+      - 이메일/비밀번호 기반 회원가입
+      - 아이디/비밀번호 찾기
+    - 배송 요청 (Request Delivery)
+      - 물품 정보 입력 (사진, 카테고리, 수량)
+      - 출발지/도착지 설정 (지도 기반)
+      - 배송 시간 선택 (실시간, 예약)
+      - 결제 (카드 등록, 간편 결제)
+      - 쿠폰/포인트 사용
+    - 실시간 배송 추적 (Real-time Delivery Tracking)
+      - 배송 담당자 위치 실시간 확인
+      - 예상 도착 시간 확인
+      - 배송 담당자와의 채팅/전화
+    - 이용 내역 (Usage History)
+      - 과거 배송 내역 목록
+      - 상세 내역 확인
+      - 리뷰 작성/확인
+    - 고객 지원 (Customer Support)
+      - 1:1 문의
+      - FAQ
+      - 공지사항
+  - 배송 담당자 (Delivery Person)
+    - 회원가입/로그인 (Sign-up/Login)
+      - 운전면허증 등 자격증 인증
+      - 계좌 등록
+    - 배송 목록 확인 (View Delivery List)
+      - 주변 배송 요청 실시간 목록
+      - 배송 요청 필터링 (거리, 수수료 등)
+      - 배송 수락/거절
+    - 배송 진행 (Delivery in Progress)
+      - 요청자 정보 및 물품 정보 확인
+      - 내비게이션 앱 연동
+      - 배송 완료 사진 전송
+    - 수익 관리 (Earnings Management)
+      - 일/주/월별 수익 내역 확인
+      - 정산 계좌 관리
+  - 관리자 (Administrator)
+    - 사용자 관리 (User Management)
+      - 회원 정보 조회 및 수정
+      - 블랙리스트 관리
+    - 배송 관리 (Delivery Management)
+      - 실시간 배송 현황 대시보드
+      - 배송 데이터 통계 및 분석
+    - 정산 관리 (Settlement Management)
+      - 배송 수수료 정산 주기 설정
+      - 정산 내역 엑셀 다운로드
+    - 고객 지원 관리 (Customer Support Management)
+      - 1:1 문의 답변 및 처리
+      - FAQ 및 공지사항 등록/수정
